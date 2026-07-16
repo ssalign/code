@@ -1,0 +1,18 @@
+--extra-index-url https://download.pytorch.org/whl/cu124
+
+accelerate==1.13.0
+huggingface-hub==1.14.0
+numpy==1.24.3
+packaging==26.0
+peft==0.19.1
+pillow==12.2.0
+PyYAML==6.0.3
+regex==2026.5.9
+requests==2.33.1
+safetensors==0.7.0
+tokenizers==0.22.2
+torch==2.5.1
+torchaudio==2.5.1
+torchvision==0.20.1
+tqdm==4.67.3
+transformers==5.8.0
