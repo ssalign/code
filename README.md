@@ -1,6 +1,5 @@
 # Semantic-Structural Alignment for Generative Pictorial Charts
-### SIGGRAPH 2026 (TOG)
-
+**SIGGRAPH 2026 (TOG)**
 **Zhida Sun**, **Yulin Zhang**, **Zheng Gu**, **Min Lu**, **Bongshin Lee**, **Daniel Cohen-Or**, **Hui Huang**<sup>*</sup>
 
 Shenzhen University &nbsp;&nbsp;|&nbsp;&nbsp; Yonsei University
