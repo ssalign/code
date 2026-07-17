@@ -193,7 +193,7 @@ If you override `--prompt` or `--reference-prompt`, keep the same structure: nam
 This code builds on the Diffusers implementation of FLUX.1 Kontext and uses FLUX's MM-DiT architecture as the generative backbone.
 
 
-
+```bash
 python run.py   --model-path /path/to/FLUX.1-Kontext-dev   --lora-path /path/to/ssalign.safetensors   --input-image input/bar.png   --chart-type bar   --object feather   --output-dir output   --seed 42
 python run.py \
   --model-path /mnt/d/huggingface/FLUX.1-Kontext-dev \
@@ -203,3 +203,4 @@ python run.py \
   --object feather \
   --output-dir output \
   --seed 42
+```
