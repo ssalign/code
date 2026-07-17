@@ -180,12 +180,25 @@ If you override `--prompt` or `--reference-prompt`, keep the same structure: nam
 ## Citation
 
 ```bibtex
-@article{sun2026semanticstructural,
-  title   = {Semantic-Structural Alignment for Generative Pictorial Charts},
-  author  = {Sun, Zhida and Zhang, Yulin and Gu, Zheng and Lu, Min and Lee, Bongshin and Cohen-Or, Daniel and Huang, Hui},
-  journal = {ACM Transactions on Graphics},
-  year    = {2026}
-}
+@article{10.1145/3811313,
+        author = {Sun, Zhida and Zhang, Yulin and Gu, Zheng and Lu, Min and Lee, Bongshin and Cohen-Or, Daniel and Huang, Hui},
+        title = {Semantic-Structural Alignment for Generative Pictorial Charts},
+        year = {2026},
+        issue_date = {July 2026},
+        publisher = {Association for Computing Machinery},
+        address = {New York, NY, USA},
+        volume = {45},
+        number = {4},
+        issn = {0730-0301},
+        url = {https://doi.org/10.1145/3811313},
+        doi = {10.1145/3811313},
+        abstract = {Traditional statistical graphics are precise but often lack the visual appeal, memorability, and engagement of pictorial charts. We present a generative framework for the automated synthesis of pictorial charts that bridges the gap between semantic expression and structural faithfulness. Rather than treating charts merely as images to be stylized, we frame the problem as a dual-conditioned generation task guided by two parallel external control signals: a text prompt capturing the semantic context of the editing intent, and a context image providing the abstract statistical chart's global structure. To reinforce these controls within a Multi-Modal Diffusion Transformer, we introduce two complementary feature-level mechanisms: structural alignment to anchor spatial layouts to the input chart, and semantic alignment to transfer expressive textures from reference images. Generalizing across major visual channels (i.e., length, area, angle, and position) and diverse semantic domains, our method produces pictorial charts that are both artistically compelling and structurally consistent. Extensive quantitative evaluations and perceptual user studies demonstrate that our framework outperforms traditional controllable generation and image editing baselines, providing a foundation for high-fidelity, data-driven generative modeling in expressive visual storytelling. Project page: https://ssalign.github.io/.},
+        journal = {ACM Trans. Graph.},
+        month = jul,
+        articleno = {140},
+        numpages = {11},
+        keywords = {pictorial charts, semantic alignment, structural alignment}
+        }
 ```
 
 ## Acknowledgements
